@@ -10,8 +10,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_web_plugins:
-    sdk: flutter
 
 dev_dependencies:
   flutter_test:
@@ -32,15 +30,8 @@ flutter:
         pluginClass: WindowManagerPlugin
       macos:
         pluginClass: WindowManagerPlugin
-      web:
-        pluginClass: WindowManagerPlugin
-        fileName: window_manager_plugin_web.dart
       windows:
         pluginClass: WindowManagerPlugin
-
-  # To add assets to your plugin package, add an assets section, like this:
-  assets:
-    - web/
 
   # For details regarding assets in packages, see
   # https://flutter.dev/assets-and-images/#from-packages
